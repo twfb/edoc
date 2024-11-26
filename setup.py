@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="edoc",
-    version="1.0.0",
+    version="1.0.1",
     description=("Extract text from doc"),
     long_description=open("README.rst").read(),
     author="twfb",
@@ -14,6 +14,7 @@ setup(
     platforms=["all"],
     include_package_data=True,
     url="https://github.com/twfb/edoc",
+    install_requires=["olefile"],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Operating System :: OS Independent",
